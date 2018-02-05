@@ -4,12 +4,15 @@ import numpy as np
 
 b = BasicGraph("mediumMaze.txt")
 b.initGraph()
-g = np.array(b.graph)
+# g = np.array(b.graph)
 
 
 gn = b.graph_n
 
-# r = b.findP(gn, 'P')
+print(gn)
+
+r = b.findP(gn, 'P')
+# print(r)
 r = b.findTarget(gn, '.')
 # r = zip(*np.where(gn == '%'))
 # r = zip(np.where(gn == "%"))
@@ -35,6 +38,6 @@ r = b.findTarget(gn, '.')
 # print(a.index(2))
 
 
-a = [1, 2, 3, 4, 5, 6]
-b = a.pop()
-print(b)
+# a = [1, 2, 3, 4, 5, 6]
+# b = a.pop()
+# print(b)

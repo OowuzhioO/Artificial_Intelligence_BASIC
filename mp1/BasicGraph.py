@@ -16,6 +16,7 @@ class BasicGraph(object):
             lines = f.readlines()
 
         for line in lines:
+            line = line.rstrip()
             row = list(line)
             self.graph.append(row)
         self.graph_n = np.array(self.graph)
