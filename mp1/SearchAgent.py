@@ -3,8 +3,12 @@ from BasicGraph import *
 
 def dfs(graph, path, start, targets):
     count = 0
+
     for target in targets:
-        dfsHelper(graph, path, count, start, target)
+        # dfsHelper(graph, path, count, start, target)
+    pass
+
+
     return count
 
 def bfs(graph, path, start, targets):

@@ -13,7 +13,7 @@ gn = b.graph_n
 r = b.findTarget(gn, '.')
 # r = zip(*np.where(gn == '%'))
 # r = zip(np.where(gn == "%"))
-print(r[0].row)
+# print(r[0].row)
 
 
 # r = np.where(gn == 'P')
@@ -35,3 +35,6 @@ print(r[0].row)
 # print(a.index(2))
 
 
+a = [1, 2, 3, 4, 5, 6]
+b = a.pop()
+print(b)
